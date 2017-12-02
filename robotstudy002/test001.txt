@@ -1,3 +1,10 @@
+*** Settings ***
+Library           Selenium2Library
+
 *** Test Cases ***
 test01
     Log    fuck you
+
+test02
+    Open Browser    http://www.baidu.com    chrome
+    Close Browser
